@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MindMaps</string>
+    <string name="view_pager_mindmap">ИДЕИ</string>
+    <string name="view_pager_group">ГРУППЫ</string>
+    <string name="enter">Вход…</string>
+    <string name="error_input_text">проверьте введенные данные</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create">создать</string>
+
+</resources>

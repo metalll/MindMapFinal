@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id = "@+id/glayout"
+
+    tools:context="root.application.View.Fragment.FragmentItems">
+    <root.application.View.MyCustomView.ItemView
+        android:layout_width="110sp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/currentRootItem"
+        android:tag="currentRootItem"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        >
+
+    </root.application.View.MyCustomView.ItemView>
+
+
+
+
+    <root.application.View.MyCustomView.ItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:id = "@+id/layoutItem"
+        >
+
+
+
+    </root.application.View.MyCustomView.ItemLayout>
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+
+        android:id = "@+id/fab"
+        android:src="@drawable/add"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+
+        android:id = "@+id/fabfull"
+        android:src="@drawable/full_mindmap"
+        />
+
+
+</RelativeLayout>
